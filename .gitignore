@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.mp4
+*.avi
+*.mkv
+*.srt
+
 # C extensions
 *.so
 
