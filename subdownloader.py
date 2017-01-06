@@ -83,7 +83,7 @@ class SubDownloader:
             self.download(f)
 
 def cli():
-    parser = argparse.ArgumentParser(description="A simple script for formatting the usb")
+    parser = argparse.ArgumentParser(description="A simple script to download english subtitles for videos")
     parser.add_argument("-c", "--current",
             help = "download all from current directory",
             action = "store_true"
