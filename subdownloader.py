@@ -102,9 +102,9 @@ def cli():
     args = parser.parse_args()
 
     downloader = SubDownloader()
-    if args.current and not args.dir and not args.file:
+    if args.current and not args.dir:
         downloader.download_from_directory()
-    elif args.dir and not args.current and not args.file:
+    elif args.dir and not args.current:
         downloader.download_from_directory(args.dir)
     else:
         print("LOL! type --help")
